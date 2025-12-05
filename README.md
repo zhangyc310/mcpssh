@@ -27,7 +27,8 @@ The project consists of a single main file `mcpssh.go` which defines the MCP ser
 go build -o mcpssh
 ```
 ## Install
-###  codex mcp add mcpssh -- /your_path_to_mcpssh/mcpssh
+###  codex install use cmd args
+`codex mcp add mcpssh -- /your_path_to_mcpssh/mcpssh`
 ### gemini edit file `~/.gemini/settings.json`
 ```
 "mcpServers": {
